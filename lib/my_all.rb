@@ -10,7 +10,7 @@ def my_all?(collection)
     i += 1
   end
 
-  # determine return value of #my_all? (true or false)
+  # determine whether return values include false
   if block_return_values.include?(false)
     false
   else
